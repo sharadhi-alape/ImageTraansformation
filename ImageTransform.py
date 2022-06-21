@@ -13,7 +13,7 @@ def get_auto_edge(image, sigma = 0.33):
 
 
 #****User Input Required for the Images***
-input_path = input('Provide the path to the file containing the images without "/" at the end.\n')
+input_path = input('Provide the path to the file containing the images. Use the "/" separator without "/" at the end.\n')
 input_path = input_path + '/'
 
 #print(input_path)
